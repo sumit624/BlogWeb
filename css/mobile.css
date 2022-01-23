@@ -1,0 +1,64 @@
+@media screen and (max-width: 1200px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 23px;
+    }
+
+    .navleft{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 23px;
+    }
+
+    .contentright{
+        display: none;
+    }
+
+    .home-article{
+        flex-direction: column;
+    }
+
+    .home-article-img{
+        text-align: center;
+    }
+
+    .year-box{
+        display: flex;
+        top: 20px;
+        left: 60vw;
+        font-size: 11px;
+    }
+
+    .year-box div{
+        margin: 0px;
+        padding: 0 5px;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .home-article-img{
+        width: 70vw;
+    }
+
+    .form-input{
+        width: 50%;
+    }
+
+    .contact-box input,textarea{
+        width: 66vw;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .social{
+        padding: 0;
+    }
+
+    .post-img{
+        height: auto;
+    }
+}

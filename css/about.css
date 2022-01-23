@@ -1,0 +1,46 @@
+.about-content{
+    /* background-color: red; */
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.about-content::before{
+    content: '';
+    background-image: url('../img/e.jpg');
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.21;
+    z-index: -1;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h1,p{
+    padding: 12px 12px;
+    margin: 20px 12px;
+}
+
+.info p{
+    font-size: 18px;
+}
+
+.s-head{
+    text-align: center;
+    margin: 50px 12px;
+    padding: 55px 12px;
+}
+
+.social{
+    margin-top: 12px;
+    height: 10vh;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
